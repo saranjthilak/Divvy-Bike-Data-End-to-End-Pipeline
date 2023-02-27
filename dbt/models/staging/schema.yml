@@ -1,0 +1,84 @@
+version: 2
+
+sources:
+    - name: staging
+      database: deproject-375711
+      schema: gh_archive_all
+
+      tables:
+        - name: external_divvy_data
+        - name: divvy_data_partitioned
+
+models:
+    - name: stg_divvybike_tripdata
+      description: >
+        Trips made by bike share program based in chicago
+      columns:
+          - name: ride_id
+            description: Primary key for this table, generated with a concatenation of bikeid+starttime.
+            tests:
+                - not_null:
+                    severity: warn
+          - name: rideable_type 
+            description: indicator for rider is a member or paid with credit card.
+            member = Divvy Member
+            casual = Paid with Credit Card.
+          - name: started_at
+            description: The date and time when the ride was started.
+          - name: ended_at 
+            description: The date and time when the ride was finished.
+          - name: start_station_name
+            description: Station name where the ride was started.
+          - name: start_station_id
+            description: Station number where the ride was started.
+          - name: end_station_name
+            description: Station name where the ride was finished.
+          - name: end_station_id
+            description: Station number where the ride was finished.
+          - name: start_lat
+            description: Latitude where the ride was started.
+          - name: start_lng
+            description: Longitude where the ride was started.
+          - name: end_lat
+            description: Latitude where the ride was finished.
+          - name: end_lng
+            description: Longitude where the ride was finished.
+          - name: member_casual 
+            description: >
+              A field describing the type of the service user.
+          - name: start_day 
+            description: >
+              A field describing the day of week trip started
+          - name: end_day 
+            description: >
+              A field describing the day of week trip ended
+
+   - name: stg_stations
+      description: >
+        Table containing unique stations
+      columns:
+          - name: station_name
+            description: Primary key for this table, generated with a concatenation of bikeid+starttime.
+            tests:
+                - not_null:
+                    severity: warn
+
+   - name: stg_member-casual
+      description: >
+        Table containing trips greater than 18 Hrs
+      columns:
+          - name: ride_id
+            description: Primary key for this table, generated with a concatenation of bikeid+starttime.
+            tests:
+                - not_null:
+                    severity: warn 
+          - name: rideable_type 
+            description: indicator for rider is a member or paid with credit card.
+          - name: member_casual 
+            description: >
+             A field describing the type of the service user.
+          - name: member_casual 
+            description: >
+              A field describing the type of the service user.
+              casual = 24-hour pass or 3-day pass user;
+              member = Annual Member.                
