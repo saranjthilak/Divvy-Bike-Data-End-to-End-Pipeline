@@ -113,31 +113,43 @@ b.	Data warehouse is created using Big Query.
 2.	Update the project ID and GCP bucket ID
 3.	Run Docker compose
   
-Figure 10: Docker composes file.
+![image](https://user-images.githubusercontent.com/94320118/221647454-395b356b-9c47-432c-a545-43553a0f784e.png)
 
 
 Use port 8080 Login to Airflow.
 Wait till data ingestion is complete.
+
+![image](https://user-images.githubusercontent.com/94320118/221647611-a574fdee-13f5-45cf-9014-cfaa6dc1e1ec.png)
+
  
 Datasets are loaded to the Data lake as parquets. 
- 
 
+![image](https://user-images.githubusercontent.com/94320118/221647706-b9d33e1b-0f44-4229-b6e7-fbceec885a33.png)
+
+ 
 
 # 8.	Table creation using Big Query
               Data is loaded in Big Query as External Table, and a Partitioned table is created.
+	      
+![image](https://user-images.githubusercontent.com/94320118/221647851-2a5a2cbb-adda-42a0-8948-cbff7e4db331.png)
+
  
 # 9.	Data Transformation using dbt
               dbt (Data Build Tool) is an open-source command line tool that helps users create, test, and manage data transformations. It is built on top of SQL and is primarily used to build and maintain analytical data pipelines. Dbt allows users to define data models, create and modify data structures, and perform data transformations using SQL. It also provides a way to manage dependencies between transformations and can be integrated with other data tools, such as Apache Airflow. Dbt is commonly used in data warehousing and data analytics to improve the efficiency and maintainability of data pipelines
          The data table in Big Query is transformed and loaded into Big Query as new Tables. 
+	 
+ ![image](https://user-images.githubusercontent.com/94320118/221647915-538dad2e-30ec-4b45-83a3-3c1baba18bca.png)
+
  
 
 # 10.	Data Visualisation using Google Data Studio
 Google Data Studio is a data visualisation and reporting tool that allows users to connect to various data sources, including Google Analytics, Google Sheets, BigQuery, and more, and create interactive reports and dashboards. It is a web-based tool that is free to use and can be used to create customised reports and dashboards that can be shared with others.
 Big Query is connected to Google Data Studio, and Data Visualisation is done using google data studio.
 
+![image](https://user-images.githubusercontent.com/94320118/221647982-d825eb02-1cb5-4fa0-98df-150d8289605c.png)
 
-Link to the Dashboard
-https://lookerstudio.google.com/reporting/a72a4138-e958-4177-b206-057641b393a3/page/JrfDD
+
+
 
  
 
