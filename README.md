@@ -54,8 +54,8 @@ Technologies Used
 5.	Big Query (Data Warehouse)
 6.	DBT (Creating Analytical Views)
 7.	Google Data Studio (Data Visualisation)
-# ![image](https://user-images.githubusercontent.com/94320118/221645946-7a0e171b-9e9a-4aec-8213-400abb7873d1.png)
-5.	Google Cloud Platform
+ ![image](https://user-images.githubusercontent.com/94320118/221645946-7a0e171b-9e9a-4aec-8213-400abb7873d1.png)
+# 5.	Google Cloud Platform
   Google Cloud Platform (GCP) is a collection of cloud computing services offered by Google. These services run on the same infrastructure that Google uses internally for its end-user products, such as Google Search and YouTube. In addition, GCP provides various services, including computing, storage, networking, and big data analytics.
 a.	Create a GCP account and create a Role.
 Use IAM and create a Role with the below permissions
