@@ -3,7 +3,7 @@ DIVVY BIKES END-TO-END DATA PIPELINE WITH DASHBOARD
 # 1.	Project Summary
 We are asked to build a complete data pipeline for data ingestion and further analytical processing to gain some insights from the report/dashboard.
 # Steps
-  •	Select a dataset that you're interested in /n
+  •	Select a dataset that you're interested in  
   •	Create a pipeline for processing this dataset and putting it into a data lake
   •	Create a pipeline for moving the data from the lake to a Data Warehouse
   •	Transform the data in the data warehouse: prepare it for the dashboard.
