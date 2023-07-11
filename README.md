@@ -104,7 +104,8 @@ b.	Data warehouse is created using Big Query.
 ![image](https://user-images.githubusercontent.com/94320118/221646780-4896089a-9467-4238-8ab8-eec993b7213c.png)
 
 # 7.	Airflow implementation 
-      Airflow is an open-source platform to programmatically author, schedule, and monitor workflows. It is written in Python and is used to schedule and manage data pipelines, workflow management, and backfill historical data. It can integrate with various data storage systems and message queues. It can also run tasks on various execution environments, such as a local machine, a cluster, or a cloud-based system. Here, Airflow is implemented to unzip the files, convert them into column data, and load them into the GCP bucket.
+Airflow is an open-source platform to programmatically author, schedule, and monitor workflows. It is written in Python and is used to schedule and manage data pipelines, workflow management, and backfill historical data. It can integrate with various data storage systems and message queues. It can also run tasks on various execution environments, such as a local machine, a cluster, or a cloud-based system. Here, Airflow is implemented to unzip the files, convert them into column data, and load them into the GCP bucket.
+     
 1.	Update the google credential in docker-compose
 2.	Update the project ID and GCP bucket ID
 3.	Run Docker compose
