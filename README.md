@@ -4,13 +4,10 @@ DIVVY BIKES END-TO-END DATA PIPELINE WITH DASHBOARD
 We are asked to build a complete data pipeline for data ingestion and further analytical processing to gain some insights from the report/dashboard.
 # Steps
   •	Select a dataset that you're interested in  
-  •	Create a pipeline for processing this dataset and putting it into a data lake
-  •	Create a pipeline for moving the data from the lake to a Data Warehouse
-  •	Transform the data in the data warehouse: prepare it for the dashboard.
-  •	Create an analytical dashboard/report.
- The dashboard should contain at least two tiles.
-  •	one graph that shows the distribution of some categorical data.
-  •	one graph that shows the distribution of the data across a temporal line.
+  •	Create a pipeline for processing this dataset and putting it into a data lake  
+  •	Create a pipeline for moving the data from the lake to a Data Warehouse  
+  •	Transform the data in the data warehouse: prepare it for the dashboard.  
+  •	Create an analytical dashboard/report.  
 # 2.	Data Set
 The dataset was made available through Kaggle. Divvy bike is a bike-sharing service in Chicago, Illinois, United States. The Chicago Department of Transportation operates it. The Divvy bike dataset includes the trip start and end time, start and end station, bike ID, and member type. The City of Chicago's open data portal makes it public. 
 https://divvy-tripdata.s3.amazonaws.com/index.html
