@@ -38,7 +38,7 @@ The data set is updated monthly, and the dataset is in CSV format inside Zip fil
  
 # 4.	Data Pipeline 
 The report showcases the creation of a data lake and a data warehouse through an end-to-end pipeline and a Dashboard. Datasets are updated monthly, then ported to a  data lake as parquets using airflow and moved to a Big Query data set. The data lake is created using a GCP bucket, and Both Bucket and Big Query data set is created using Terraform. The Big Query data set is then partitioned, and new tables will be created back using dbt tool. The Google Data Studio is a data visualisation tool that will then be connected to Big Query Tables and generate trends and insights of data sets using a Dashboard.
-Data pipeline has been made because they eliminate manual steps which can be used to process data. With the help of a pipeline, there would be smooth data flow which would be used from one step to the other (Tamburri et al. 2020). This helps in the real-time analysis of data and information-driven decisions.
+Data pipeline has been made because they eliminate manual steps which can be used to process data. With the help of a pipeline, there would be smooth data flow which would be used from one step to the other. This helps in the real-time analysis of data and information-driven decisions.
 This data pipeline helps in the continuous processing of data. This is an agile and elastic process and allows smooth access to data. This also helps in easy setup and maintenance.
  
 ![image](https://user-images.githubusercontent.com/94320118/221644912-c4d30cd1-1377-4531-b5b1-9ce0282f4bf3.png)
