@@ -116,17 +116,8 @@ Benefits:
 
 Terraform is used to provision both the **Data Lake** (GCP Bucket) and **BigQuery Dataset**.
 
-```bash
-terraform init
-terraform plan
-terraform apply
-a. Data Lake (GCP Bucket)
 
-
-b. Data Warehouse (BigQuery Dataset)
-
-
-9️⃣ Airflow Implementation
+## 9️⃣ Airflow Implementation
 Apache Airflow orchestrates the ETL process:
 
 Unzip files
@@ -153,28 +144,28 @@ Access Airflow UI at localhost:8080
 Data Lake result:
 
 
-🔟 BigQuery Table Creation
+## 🔟 BigQuery Table Creation
 External Table created first
 
 Partitioned table created from external table
 
 
 
-1️⃣1️⃣ Data Transformation with dbt
+## 1️⃣1️⃣ Data Transformation with dbt
 dbt (Data Build Tool) used for data modeling and creating analytical views.
 
 Final transformed tables loaded to BigQuery:
 
 
 
-1️⃣2️⃣ Data Visualization with Google Data Studio
+## 1️⃣2️⃣ Data Visualization with Google Data Studio
 BigQuery connected to Google Data Studio
 
 Interactive dashboards built for analysis:
 
 
 
-Summary
+## Summary
 ✅ Automated data pipeline from raw files to dashboard
 ✅ Infrastructure as Code (Terraform)
 ✅ Orchestrated ETL with Airflow
