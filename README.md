@@ -61,7 +61,7 @@ Goals:
 - **Transformation:** BigQuery → DBT transformations → Analytical views
 - **Visualization:** BigQuery → Google Data Studio dashboard
 
-Benefits:
+## Benefits:
 ✅ Eliminates manual processing  
 ✅ Enables real-time analysis  
 ✅ Provides continuous data pipeline  
@@ -165,10 +165,12 @@ Interactive dashboards built for analysis:
 
 
 
-## Summary
-✅ Automated data pipeline from raw files to dashboard
-✅ Infrastructure as Code (Terraform)
-✅ Orchestrated ETL with Airflow
-✅ Scalable data warehouse with BigQuery
-✅ Advanced transformations with dbt
-✅ Beautiful, interactive dashboards with Google Data Studio
+## 🚀 Project Summary: Scalable Data Platform
+
+- ✅ **Automated data pipeline** from raw source files to live dashboards  
+- ✅ **Infrastructure as Code** with Terraform for repeatable cloud deployments  
+- ✅ **ETL orchestration** using Apache Airflow for reliable, scheduled workflows  
+- ✅ **Scalable analytics** with Google BigQuery as the central data warehouse  
+- ✅ **Modular SQL transformations** using dbt for clean, testable data models  
+- ✅ **Interactive dashboards** built with Google Data Studio for real-time insights
+
