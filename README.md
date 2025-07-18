@@ -90,7 +90,7 @@ Goals:
 - Storage Admin
 - Storage Object Creator
 
-![image](https://user-images.githubusercontent.com/94320118/221645493-a944152d-17fb-4c27-bb14-7909710ed9bc.png)
+
 
 ### b. Create VM Instance:
 - Region: Europe
@@ -98,11 +98,9 @@ Goals:
 - Assign created IAM role
 - Download JSON key pair
 
-![image](https://user-images.githubusercontent.com/94320118/221645995-bf2acf63-10bb-4e00-890f-e92b82e4a714.png)
 
 ### c. Connect to VM via VS Code SSH
 
-![image](https://user-images.githubusercontent.com/94320118/221646364-c03d2e68-3bd2-4bf1-80d3-917c03338ff7.png)
 
 **Install:**
 - Anaconda
